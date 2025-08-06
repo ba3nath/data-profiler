@@ -1,0 +1,30 @@
+{
+  "cloud": "gcp",
+  "connection": {
+    "project_id": "your-project-id",
+    "dataset_id": "your_dataset",
+    "credentials_path": "/path/to/service-account-key.json"
+  },
+  "sample_size": 15000,
+  "tables": ["customer_data", "sales_data", "inventory"],
+  "validation_rules": {
+    "customer_id": {
+      "unique": true,
+      "not_null": true
+    },
+    "purchase_amount": {
+      "min": 0
+    },
+    "email": {
+      "pattern": "^[^@]+@[^@]+\\.[^@]+$"
+    },
+    "phone": {
+      "pattern": "^\\+?[1-9]\\d{1,14}$"
+    }
+  },
+  "openmetadata": {
+    "host_port": "http://localhost:8585/api",
+    "auth_provider": "no-auth"
+  },
+  "output_dir": "reports"
+} 

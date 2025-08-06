@@ -1,0 +1,32 @@
+{
+  "cloud": "aws",
+  "db_type": "redshift",
+  "connection": {
+    "host": "your-redshift-cluster.redshift.amazonaws.com",
+    "port": 5439,
+    "database": "your_database",
+    "username": "your_username",
+    "password": "your_password",
+    "schema": "public"
+  },
+  "sample_size": 10000,
+  "tables": ["users", "orders", "products"],
+  "validation_rules": {
+    "age": {
+      "min": 0,
+      "max": 120
+    },
+    "email": {
+      "pattern": "^[^@]+@[^@]+\\.[^@]+$"
+    },
+    "user_id": {
+      "unique": true,
+      "not_null": true
+    }
+  },
+  "openmetadata": {
+    "host_port": "http://localhost:8585/api",
+    "auth_provider": "no-auth"
+  },
+  "output_dir": "reports"
+} 
