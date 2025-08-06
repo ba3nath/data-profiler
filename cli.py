@@ -85,16 +85,19 @@ def profile_file_command(args):
     print(f"Loading data from: {file_path}")
     
     # Load data based on file extension
-    if file_path.suffix.lower() == '.csv':
-        df = pd.read_csv(file_path)
-    elif file_path.suffix.lower() in ['.xlsx', '.xls']:
-        df = pd.read_excel(file_path)
-    elif file_path.suffix.lower() == '.json':
-        df = pd.read_json(file_path)
-    elif file_path.suffix.lower() == '.parquet':
-        df = pd.read_parquet(file_path)
-    else:
-        raise ValueError(f"Unsupported file format: {file_path.suffix}")
+    try:
+        if file_path.suffix.lower() == '.csv':
+            df = pd.read_csv(file_path)
+        elif file_path.suffix.lower() in ['.xlsx', '.xls']:
+            df = pd.read_excel(file_path)
+        elif file_path.suffix.lower() == '.json':
+            df = pd.read_json(file_path)
+        elif file_path.suffix.lower() == '.parquet':
+            df = pd.read_parquet(file_path)
+        else:
+            raise ValueError(f"Unsupported file format: {file_path.suffix}")
+    except Exception as e:
+        raise ValueError(f"Error loading file {file_path}: {str(e)}")
     
     print(f"Loaded {len(df)} rows and {len(df.columns)} columns")
     

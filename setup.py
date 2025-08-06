@@ -19,7 +19,7 @@ setup(
     description="A comprehensive data profiling and validation system for cloud databases",
     long_description=read_readme(),
     long_description_content_type="text/markdown",
-    url="https://github.com/your-org/data-profiler",
+    url="https://github.com/ba3nath/data-profiler",
     packages=find_packages(),
     classifiers=[
         "Development Status :: 4 - Beta",
@@ -63,8 +63,8 @@ setup(
     },
     keywords="data profiling, data quality, data validation, database, analytics",
     project_urls={
-        "Bug Reports": "https://github.com/your-org/data-profiler/issues",
-        "Source": "https://github.com/your-org/data-profiler",
-        "Documentation": "https://github.com/your-org/data-profiler/blob/main/README.md",
+        "Bug Reports": "https://github.com/ba3nath/data-profiler/issues",
+        "Source": "https://github.com/ba3nath/data-profiler",
+        "Documentation": "https://github.com/ba3nath/data-profiler/blob/main/README.md",
     },
 ) 

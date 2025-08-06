@@ -22,6 +22,10 @@ class GCPConnector(CloudConnector):
         dataset_id = self.config.get('dataset_id')
         credentials_path = self.config.get('credentials_path')
         
+        # Validate required parameters
+        if not project_id or not dataset_id:
+            raise ValueError("Missing required connection parameters: project_id and dataset_id are required")
+        
         if credentials_path:
             # Use service account credentials file
             connection_string = f"bigquery://{project_id}/{dataset_id}?credentials_path={credentials_path}"

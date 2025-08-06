@@ -6,6 +6,11 @@ from typing import Dict
 from sqlalchemy import create_engine, Engine
 from .base import CloudConnector
 
+try:
+    import pyodbc
+except ImportError:
+    pyodbc = None
+
 
 class AzureConnector(CloudConnector):
     """Azure connector for SQL Database and Synapse"""
@@ -28,6 +33,10 @@ class AzureConnector(CloudConnector):
         db_type = self.config.get('db_type', 'sql_database')
         
         if db_type.lower() in ['sql_database', 'synapse']:
+            # Check if pyodbc is available
+            if pyodbc is None:
+                raise ImportError("pyodbc is required for Azure SQL Database connections. Install it with: pip install pyodbc")
+            
             # Azure SQL Database or Synapse connection
             connection_string = f"mssql+pyodbc://{username}:{password}@{server}:{port}/{database}?driver=ODBC+Driver+17+for+SQL+Server"
             

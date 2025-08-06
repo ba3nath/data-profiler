@@ -25,6 +25,10 @@ class AWSConnector(CloudConnector):
         username = self.config.get('username')
         password = self.config.get('password')
         
+        # Validate required parameters
+        if not all([host, database, username, password]):
+            raise ValueError("Missing required connection parameters: host, database, username, and password are required")
+        
         # Determine database type and driver
         db_type = self.config.get('db_type', 'redshift')
         
