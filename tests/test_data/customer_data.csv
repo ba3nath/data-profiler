@@ -1,0 +1,101 @@
+customer_id,name,age,email,phone,income,credit_score,registration_date,is_active,transaction_count,last_purchase_amount,customer_segment,satisfaction_score,account_balance,notes
+CUST_0001,John Smith,35,user1@gmail.com,(555) 123-4567,75000,Good,2020-01-15,True,45,125.50,Gold,8,2500.00,Customer note #1: regular customer with good payment history
+CUST_0002,Jane Johnson,28,user2@yahoo.com,555-123-4567,65000,Excellent,2020-02-20,True,78,89.99,Gold,9,4500.00,Customer note #2: frequent shopper prefers online purchases
+CUST_0003,Mike Williams,42,user3@hotmail.com,555.123.4567,95000,Excellent,2020-03-10,True,120,250.00,Premium,10,8500.00,Customer note #3: premium customer with high transaction volume
+CUST_0004,Sarah Brown,31,user4@outlook.com,5551234567,55000,Fair,2020-04-05,True,23,67.25,Silver,7,1200.00,Customer note #4: occasional customer mostly buys during sales
+CUST_0005,David Jones,39,user5@company.com,+1-555-123-4567,85000,Good,2020-05-12,True,56,180.75,Gold,8,3200.00,Customer note #5: loyal customer with consistent spending patterns
+CUST_0006,Lisa Garcia,26,user6@gmail.com,(555) 123-4567,45000,Fair,2020-06-18,False,12,45.00,Bronze,6,500.00,Customer note #6: inactive customer last purchase 6 months ago
+CUST_0007,Tom Miller,48,user7@yahoo.com,555-123-4567,120000,Excellent,2020-07-22,True,95,350.00,Premium,9,12000.00,Customer note #7: high value customer prefers luxury items
+CUST_0008,Emma Davis,33,user8@hotmail.com,555.123.4567,70000,Good,2020-08-30,True,67,145.50,Gold,8,3800.00,Customer note #8: active customer with diverse purchase history
+CUST_0009,Alex Wilson,29,user9@outlook.com,5551234567,60000,Fair,2020-09-14,True,34,78.25,Silver,7,1800.00,Customer note #9: moderate customer mostly buys electronics
+CUST_0010,Maria Taylor,37,user10@company.com,+1-555-123-4567,90000,Excellent,2020-10-08,True,88,275.00,Premium,9,6500.00,Customer note #10: premium customer with excellent feedback
+CUST_0011,Robert Anderson,44,user11@gmail.com,(555) 123-4567,80000,Good,2020-11-25,True,72,195.75,Gold,8,4200.00,Customer note #11: regular customer prefers weekend shopping
+CUST_0012,Jennifer Thomas,27,user12@yahoo.com,555-123-4567,50000,Fair,2020-12-03,True,28,55.00,Silver,6,900.00,Customer note #12: budget conscious customer waits for discounts
+CUST_0013,Christopher Jackson,41,user13@hotmail.com,555.123.4567,110000,Excellent,2021-01-17,True,105,425.00,Premium,10,9500.00,Customer note #13: high spending customer with premium preferences
+CUST_0014,Amanda White,32,user14@outlook.com,5551234567,75000,Good,2021-02-28,True,59,165.50,Gold,8,3600.00,Customer note #14: consistent customer with good payment record
+CUST_0015,Daniel Harris,36,user15@company.com,+1-555-123-4567,85000,Good,2021-03-12,True,81,220.25,Gold,8,4800.00,Customer note #15: loyal customer with increasing spending
+CUST_0016,Jessica Martin,25,user16@gmail.com,(555) 123-4567,40000,Poor,2021-04-05,False,8,25.00,Basic,4,200.00,Customer note #16: low activity customer with payment issues
+CUST_0017,Matthew Thompson,47,user17@yahoo.com,555-123-4567,130000,Excellent,2021-05-20,True,115,550.00,Premium,10,15000.00,Customer note #17: top tier customer with exceptional spending
+CUST_0018,Ashley Garcia,30,user18@hotmail.com,555.123.4567,65000,Fair,2021-06-14,True,42,95.75,Silver,7,2100.00,Customer note #18: moderate customer with seasonal preferences
+CUST_0019,James Martinez,38,user19@outlook.com,5551234567,95000,Excellent,2021-07-08,True,92,310.00,Premium,9,7200.00,Customer note #19: premium customer with diverse interests
+CUST_0020,Nicole Robinson,34,user20@company.com,+1-555-123-4567,70000,Good,2021-08-22,True,63,175.50,Gold,8,3900.00,Customer note #20: reliable customer with consistent behavior
+CUST_0021,Kevin Clark,43,user21@gmail.com,(555) 123-4567,100000,Excellent,2021-09-30,True,98,380.25,Premium,9,8800.00,Customer note #21: high value customer with premium tastes
+CUST_0022,Stephanie Lewis,28,user22@yahoo.com,555-123-4567,55000,Fair,2021-10-12,True,31,68.00,Silver,6,1100.00,Customer note #22: occasional customer mostly buys essentials
+CUST_0023,Andrew Lee,39,user23@hotmail.com,555.123.4567,90000,Good,2021-11-25,True,76,245.75,Gold,8,5200.00,Customer note #23: active customer with good credit history
+CUST_0024,Rachel Hall,31,user24@outlook.com,5551234567,60000,Fair,2021-12-18,True,38,82.50,Silver,7,1600.00,Customer note #24: moderate customer with specific preferences
+CUST_0025,Joshua Allen,45,user25@company.com,+1-555-123-4567,115000,Excellent,2022-01-05,True,108,460.00,Premium,10,11000.00,Customer note #25: premium customer with high transaction value
+CUST_0026,Melissa Young,26,user26@gmail.com,(555) 123-4567,45000,Poor,2022-02-14,False,15,35.00,Basic,5,300.00,Customer note #26: inactive customer with limited activity
+CUST_0027,Ryan King,37,user27@yahoo.com,555-123-4567,80000,Good,2022-03-28,True,69,185.25,Gold,8,4100.00,Customer note #27: consistent customer with good feedback
+CUST_0028,Lauren Wright,33,user28@hotmail.com,555.123.4567,75000,Good,2022-04-10,True,58,155.50,Gold,8,3700.00,Customer note #28: reliable customer with steady spending
+CUST_0029,Jonathan Lopez,40,user29@outlook.com,5551234567,95000,Excellent,2022-05-22,True,89,295.00,Premium,9,6800.00,Customer note #29: premium customer with excellent service
+CUST_0030,Michelle Hill,29,user30@company.com,+1-555-123-4567,65000,Fair,2022-06-15,True,44,88.75,Silver,7,1900.00,Customer note #30: moderate customer with seasonal patterns
+CUST_0031,Steven Scott,46,user31@gmail.com,(555) 123-4567,125000,Excellent,2022-07-08,True,112,520.00,Premium,10,13500.00,Customer note #31: top customer with exceptional value
+CUST_0032,Kimberly Green,32,user32@yahoo.com,555-123-4567,70000,Good,2022-08-20,True,61,170.25,Gold,8,4000.00,Customer note #32: active customer with good relationship
+CUST_0033,Thomas Baker,35,user33@hotmail.com,555.123.4567,85000,Good,2022-09-12,True,74,230.50,Gold,8,4600.00,Customer note #33: loyal customer with increasing engagement
+CUST_0034,Amber Adams,27,user34@outlook.com,5551234567,50000,Fair,2022-10-05,True,26,52.00,Silver,6,800.00,Customer note #34: budget customer with limited spending
+CUST_0035,Timothy Nelson,42,user35@company.com,+1-555-123-4567,105000,Excellent,2022-11-18,True,96,340.75,Premium,9,8200.00,Customer note #35: premium customer with high satisfaction
+CUST_0036,Danielle Carter,30,user36@gmail.com,(555) 123-4567,60000,Fair,2022-12-30,True,36,75.25,Silver,7,1400.00,Customer note #36: moderate customer with specific needs
+CUST_0037,Jeffrey Mitchell,38,user37@yahoo.com,555-123-4567,90000,Good,2023-01-14,True,82,260.00,Gold,8,5400.00,Customer note #37: active customer with good credit
+CUST_0038,Heather Perez,34,user38@hotmail.com,555.123.4567,75000,Good,2023-02-25,True,65,160.75,Gold,8,3800.00,Customer note #38: consistent customer with reliable behavior
+CUST_0039,Mark Roberts,44,user39@outlook.com,5551234567,110000,Excellent,2023-03-10,True,101,390.50,Premium,9,9200.00,Customer note #39: premium customer with excellent feedback
+CUST_0040,Lisa Turner,28,user40@company.com,+1-555-123-4567,55000,Fair,2023-04-22,True,29,62.00,Silver,6,950.00,Customer note #40: occasional customer with basic needs
+CUST_0041,Anthony Phillips,39,user41@gmail.com,(555) 123-4567,85000,Good,2023-05-15,True,77,210.25,Gold,8,4700.00,Customer note #41: loyal customer with good history
+CUST_0042,Shannon Campbell,33,user42@yahoo.com,555-123-4567,70000,Good,2023-06-08,True,60,165.50,Gold,8,4200.00,Customer note #42: reliable customer with steady spending
+CUST_0043,Patrick Parker,41,user43@hotmail.com,555.123.4567,100000,Excellent,2023-07-20,True,94,320.75,Premium,9,7800.00,Customer note #43: premium customer with high value
+CUST_0044,Angela Evans,31,user44@outlook.com,5551234567,65000,Fair,2023-08-12,True,41,85.00,Silver,7,1700.00,Customer note #44: moderate customer with seasonal buying
+CUST_0045,Donald Edwards,47,user45@company.com,+1-555-123-4567,120000,Excellent,2023-09-05,True,109,480.00,Premium,10,12500.00,Customer note #45: top tier customer with exceptional spending
+CUST_0046,Christine Collins,29,user46@gmail.com,(555) 123-4567,50000,Poor,2023-10-18,False,18,40.00,Basic,5,400.00,Customer note #46: low activity customer with issues
+CUST_0047,Charles Stewart,36,user47@yahoo.com,555-123-4567,80000,Good,2023-11-30,True,71,190.25,Gold,8,4300.00,Customer note #47: consistent customer with good feedback
+CUST_0048,Deborah Morris,35,user48@hotmail.com,555.123.4567,75000,Good,2023-12-15,True,64,155.50,Gold,8,3900.00,Customer note #48: reliable customer with steady behavior
+CUST_0049,Edward Rogers,43,user49@outlook.com,5551234567,105000,Excellent,2024-01-08,True,97,350.00,Premium,9,8500.00,Customer note #49: premium customer with excellent service
+CUST_0050,Donna Reed,32,user50@company.com,+1-555-123-4567,60000,Fair,2024-02-20,True,37,72.75,Silver,7,1300.00,Customer note #50: moderate customer with specific preferences
+CUST_0051,George Cook,40,user51@gmail.com,(555) 123-4567,95000,Good,2024-03-12,True,86,275.25,Gold,8,5600.00,Customer note #51: active customer with good credit history
+CUST_0052,Nancy Morgan,34,user52@yahoo.com,555-123-4567,70000,Good,2024-04-25,True,62,170.50,Gold,8,4100.00,Customer note #52: consistent customer with reliable spending
+CUST_0053,Frank Bell,45,user53@hotmail.com,555.123.4567,115000,Excellent,2024-05-18,True,103,410.75,Premium,9,9500.00,Customer note #53: premium customer with high satisfaction
+CUST_0054,Helen Murphy,27,user54@outlook.com,5551234567,45000,Poor,2024-06-10,False,12,30.00,Basic,4,250.00,Customer note #54: inactive customer with limited activity
+CUST_0055,Wayne Bailey,38,user55@company.com,+1-555-123-4567,85000,Good,2024-07-03,True,79,225.00,Gold,8,4800.00,Customer note #55: loyal customer with good relationship
+CUST_0056,Carol Rivera,33,user56@gmail.com,(555) 123-4567,75000,Good,2024-08-15,True,66,160.25,Gold,8,4000.00,Customer note #56: reliable customer with consistent behavior
+CUST_0057,Alan Cooper,42,user57@yahoo.com,555-123-4567,100000,Excellent,2024-09-28,True,91,330.50,Premium,9,8000.00,Customer note #57: premium customer with excellent feedback
+CUST_0058,Ruth Richardson,30,user58@hotmail.com,555.123.4567,65000,Fair,2024-10-12,True,40,78.75,Silver,7,1500.00,Customer note #58: moderate customer with seasonal patterns
+CUST_0059,Harold Cox,46,user59@outlook.com,5551234567,125000,Excellent,2024-11-25,True,111,500.00,Premium,10,13000.00,Customer note #59: top customer with exceptional value
+CUST_0060,Jean Howard,31,user60@company.com,+1-555-123-4567,60000,Fair,2024-12-08,True,35,68.50,Silver,6,1100.00,Customer note #60: occasional customer with basic needs
+CUST_0061,Jack Ward,39,user61@gmail.com,(555) 123-4567,90000,Good,2025-01-20,True,84,240.25,Gold,8,5200.00,Customer note #61: active customer with good credit
+CUST_0062,Denise Torres,35,user62@yahoo.com,555-123-4567,80000,Good,2025-02-12,True,73,185.75,Gold,8,4500.00,Customer note #62: consistent customer with reliable spending
+CUST_0063,Peter Peterson,44,user63@hotmail.com,555.123.4567,110000,Excellent,2025-03-05,True,99,370.00,Premium,9,8800.00,Customer note #63: premium customer with high satisfaction
+CUST_0064,Debra Gray,28,user64@outlook.com,5551234567,50000,Poor,2025-04-18,False,16,35.00,Basic,5,350.00,Customer note #64: low activity customer with issues
+CUST_0065,Henry Ramirez,37,user65@company.com,+1-555-123-4567,85000,Good,2025-05-10,True,81,215.50,Gold,8,4700.00,Customer note #65: loyal customer with good history
+CUST_0066,Betty James,34,user66@gmail.com,(555) 123-4567,75000,Good,2025-06-22,True,68,165.25,Gold,8,4200.00,Customer note #66: reliable customer with steady behavior
+CUST_0067,Arthur Watson,41,user67@yahoo.com,555-123-4567,100000,Excellent,2025-07-15,True,93,340.75,Premium,9,8200.00,Customer note #67: premium customer with excellent service
+CUST_0068,Virginia Brooks,32,user68@hotmail.com,555.123.4567,65000,Fair,2025-08-08,True,43,82.00,Silver,7,1600.00,Customer note #68: moderate customer with specific preferences
+CUST_0069,Ryan Kelly,47,user69@outlook.com,5551234567,120000,Excellent,2025-09-30,True,107,460.25,Premium,10,12000.00,Customer note #69: top tier customer with exceptional spending
+CUST_0070,Frances Sanders,29,user70@company.com,+1-555-123-4567,55000,Fair,2025-10-12,True,32,65.75,Silver,6,900.00,Customer note #70: occasional customer with basic needs
+CUST_0071,Philip Price,38,user71@gmail.com,(555) 123-4567,90000,Good,2025-11-25,True,87,250.00,Gold,8,5400.00,Customer note #71: active customer with good credit history
+CUST_0072,Ann Bennett,33,user72@yahoo.com,555-123-4567,80000,Good,2025-12-18,True,75,180.50,Gold,8,4600.00,Customer note #72: consistent customer with reliable spending
+CUST_0073,Johnny Wood,43,user73@hotmail.com,555.123.4567,105000,Excellent,2026-01-10,True,100,360.25,Premium,9,9000.00,Customer note #73: premium customer with high satisfaction
+CUST_0074,Doris Barnes,30,user74@outlook.com,5551234567,60000,Fair,2026-02-22,True,38,75.00,Silver,7,1400.00,Customer note #74: moderate customer with seasonal patterns
+CUST_0075,Willie Ross,45,user75@company.com,+1-555-123-4567,115000,Excellent,2026-03-15,True,104,420.50,Premium,9,9500.00,Customer note #75: premium customer with excellent feedback
+CUST_0076,Alice Henderson,31,user76@gmail.com,(555) 123-4567,70000,Good,2026-04-08,True,61,170.75,Gold,8,4300.00,Customer note #76: reliable customer with consistent behavior
+CUST_0077,Lawrence Coleman,36,user77@yahoo.com,555-123-4567,85000,Good,2026-05-20,True,80,220.25,Gold,8,4900.00,Customer note #77: loyal customer with good relationship
+CUST_0078,Janet Jenkins,35,user78@hotmail.com,555.123.4567,75000,Good,2026-06-12,True,67,160.00,Gold,8,4100.00,Customer note #78: consistent customer with steady spending
+CUST_0079,Jerry Perry,42,user79@outlook.com,5551234567,100000,Excellent,2026-07-05,True,95,330.75,Premium,9,8500.00,Customer note #79: premium customer with excellent service
+CUST_0080,Carolyn Powell,28,user80@company.com,+1-555-123-4567,50000,Poor,2026-08-18,False,14,30.00,Basic,4,200.00,Customer note #80: inactive customer with limited activity
+CUST_0081,Howard Long,39,user81@gmail.com,(555) 123-4567,90000,Good,2026-09-10,True,85,245.50,Gold,8,5300.00,Customer note #81: active customer with good credit
+CUST_0082,Martha Patterson,34,user82@yahoo.com,555-123-4567,80000,Good,2026-10-22,True,76,185.25,Gold,8,4700.00,Customer note #82: reliable customer with consistent behavior
+CUST_0083,Eugene Hughes,44,user83@hotmail.com,555.123.4567,110000,Excellent,2026-11-15,True,102,380.00,Premium,9,9200.00,Customer note #83: premium customer with high satisfaction
+CUST_0084,Marie Flores,32,user84@outlook.com,5551234567,65000,Fair,2026-12-08,True,45,85.75,Silver,7,1700.00,Customer note #84: moderate customer with specific needs
+CUST_0085,Russell Washington,46,user85@company.com,+1-555-123-4567,125000,Excellent,2027-01-20,True,110,480.25,Premium,10,12500.00,Customer note #85: top customer with exceptional value
+CUST_0086,Gladys Butler,29,user86@gmail.com,(555) 123-4567,55000,Fair,2027-02-12,True,33,70.00,Silver,6,950.00,Customer note #86: occasional customer with basic preferences
+CUST_0087,Bobby Simmons,37,user87@yahoo.com,555-123-4567,85000,Good,2027-03-05,True,82,210.50,Gold,8,4800.00,Customer note #87: loyal customer with good history
+CUST_0088,Joan Foster,33,user88@hotmail.com,555.123.4567,75000,Good,2027-04-18,True,69,165.75,Gold,8,4200.00,Customer note #88: consistent customer with reliable spending
+CUST_0089,Victor Gonzales,41,user89@outlook.com,5551234567,100000,Excellent,2027-05-10,True,96,350.25,Premium,9,8700.00,Customer note #89: premium customer with excellent feedback
+CUST_0090,Thelma Bryant,30,user90@company.com,+1-555-123-4567,60000,Fair,2027-06-22,True,39,78.50,Silver,7,1500.00,Customer note #90: moderate customer with seasonal buying
+CUST_0091,Raymond Alexander,45,user91@gmail.com,(555) 123-4567,115000,Excellent,2027-07-15,True,106,440.00,Premium,9,9800.00,Customer note #91: premium customer with high satisfaction
+CUST_0092,Sharon Russell,31,user92@yahoo.com,555-123-4567,70000,Good,2027-08-08,True,63,175.25,Gold,8,4400.00,Customer note #92: reliable customer with consistent behavior
+CUST_0093,Roy Griffin,38,user93@hotmail.com,555.123.4567,90000,Good,2027-09-30,True,88,235.50,Gold,8,5100.00,Customer note #93: active customer with good credit history
+CUST_0094,Phyllis Diaz,35,user94@outlook.com,5551234567,80000,Good,2027-10-12,True,77,190.75,Gold,8,4600.00,Customer note #94: consistent customer with reliable spending
+CUST_0095,Clarence Hayes,43,user95@company.com,+1-555-123-4567,105000,Excellent,2027-11-25,True,98,370.25,Premium,9,8900.00,Customer note #95: premium customer with excellent service
+CUST_0096,Elsie Myers,28,user96@gmail.com,(555) 123-4567,50000,Poor,2027-12-18,False,17,35.00,Basic,5,300.00,Customer note #96: low activity customer with issues
+CUST_0097,Samuel Ford,40,user97@yahoo.com,555-123-4567,95000,Good,2028-01-10,True,90,260.00,Gold,8,5500.00,Customer note #97: loyal customer with good relationship
+CUST_0098,Florence Ortiz,34,user98@hotmail.com,555.123.4567,75000,Good,2028-02-22,True,70,170.25,Gold,8,4300.00,Customer note #98: reliable customer with steady behavior
+CUST_0099,Claude Wallace,47,user99@outlook.com,5551234567,120000,Excellent,2028-03-15,True,113,490.50,Premium,10,13000.00,Customer note #99: top tier customer with exceptional spending
+CUST_0100,Marion Snyder,32,user100@company.com,+1-555-123-4567,65000,Fair,2028-04-08,True,46,88.75,Silver,7,1800.00,Customer note #100: moderate customer with specific preferences 

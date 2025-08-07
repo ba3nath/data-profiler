@@ -1,0 +1,68 @@
+{
+  "customer_id": {
+    "unique": true,
+    "not_null": true,
+    "pattern": "^CUST_\\d{4}$"
+  },
+  "name": {
+    "not_null": false,
+    "pattern": "^[A-Z][a-z]+ [A-Z][a-z]+$"
+  },
+  "age": {
+    "min": 18,
+    "max": 100,
+    "dtype": "numeric"
+  },
+  "email": {
+    "pattern": "^[^@]+@[^@]+\\.[^@]+$",
+    "not_null": false
+  },
+  "phone": {
+    "pattern": "^[\\d\\-\\(\\)\\.\\+ ]+$",
+    "not_null": false
+  },
+  "income": {
+    "min": 0,
+    "max": 1000000,
+    "dtype": "numeric"
+  },
+  "credit_score": {
+    "allowed_values": ["Excellent", "Good", "Fair", "Poor", "Very Poor"],
+    "not_null": false
+  },
+  "registration_date": {
+    "pattern": "^\\d{4}-\\d{2}-\\d{2}$",
+    "not_null": false
+  },
+  "is_active": {
+    "allowed_values": [true, false],
+    "not_null": false
+  },
+  "transaction_count": {
+    "min": 0,
+    "max": 10000,
+    "dtype": "integer"
+  },
+  "last_purchase_amount": {
+    "min": 0,
+    "max": 100000,
+    "dtype": "numeric"
+  },
+  "customer_segment": {
+    "allowed_values": ["Premium", "Gold", "Silver", "Bronze", "Basic"],
+    "not_null": false
+  },
+  "satisfaction_score": {
+    "min": 1,
+    "max": 10,
+    "dtype": "integer"
+  },
+  "account_balance": {
+    "dtype": "numeric",
+    "not_null": false
+  },
+  "notes": {
+    "max_length": 1000,
+    "not_null": false
+  }
+} 
